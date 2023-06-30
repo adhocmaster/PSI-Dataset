@@ -9,7 +9,7 @@ import sys
 
 if __name__ == '__main__':
     root_path = sys.argv[1]
-    video_path = os.path.join(root_path, 'PSI_Videos/videos')
+    video_path = os.path.join(root_path, 'videos')
     frames_path = os.path.join(root_path, 'frames')
 
     #create 'data/frames' folder
